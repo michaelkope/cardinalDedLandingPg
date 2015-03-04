@@ -5,15 +5,15 @@ body {
   background-color: #f2f2f2;
 }
 
-<<<<<<< HEAD
 
 
 #form .col-md-8, #videoContainer{
 	float: none;
 	margin: 0 auto;
 }
+
 .jumbotron {
-background: url(../images/herobg.png) no-repeat top fixed;
+background: url(../img/herobg.png) no-repeat top fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -28,8 +28,6 @@ padding-top: 40%;
 padding-bottom: 17%;
 }
 
-=======
->>>>>>> origin/justin
 #mainContentBG .container{
 	background-color: #f5f5f5;
 }
@@ -42,22 +40,14 @@ line-height: 125%;
 font-weight: bold;
 }
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> origin/justin
 #mainContentBG .col-md-4 ul{
 	padding-bottom: 10%;
 	width: 90%;
 	margin: 20px auto;
 }
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> origin/justin
 #mainContentBG ul li{
 margin-top:5px; 
 padding-left: 0px;
@@ -65,11 +55,7 @@ font-size: 26px;
 color: #a4202d;
 }
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> origin/justin
 #mainContentBG ul li span{
 font-size: 16px;
 color: #696969;
@@ -85,40 +71,23 @@ text-align: center;
 font-weight: 200;
 }
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> origin/justin
 #mainContentBG a .fa{
 color: #808080;
 padding-right: 10px;
 }
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> origin/justin
 #mainContentBG .row .grid_text, #mainContentBG .row .grid_img{
 	padding-right: 0px;
 	padding-left: 0px;
 }
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> origin/justin
 #grid{
-		background-color: #ffffff;
+background-color: #ffffff;
 }
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> origin/justin
 #grid .row div{
 	min-height: 256px;
 }
@@ -127,15 +96,13 @@ padding-right: 10px;
 	padding-top: 10%;
 	width: 80%;
 	margin: 0 auto;
-<<<<<<< HEAD
 
 }
 
 
-=======
-}
 
->>>>>>> origin/justin
+
+
 #grid ul li{
 	padding-left: 0px;
 }
@@ -145,19 +112,14 @@ padding-right: 10px;
 	font-weight: 200;
 	padding: 25px;
 	text-align: center;
-<<<<<<< HEAD
 
 }
 #mainContentBG .col-md-12{
-
 	background-color: #696969;
-
-=======
 }
 
 #mainContentBG .col-md-12{
 	background-color: #696969;
->>>>>>> origin/justin
 }
 
 #form .col-md-8, #videoContainer{
@@ -165,7 +127,7 @@ padding-right: 10px;
 	margin: 0 auto;
 }
 
-<<<<<<< HEAD
+
 
 footer{
 	background-color: #171a1d;
@@ -219,9 +181,9 @@ width: 100%;
 border-radius: 0;
 -webkit-appearance: none;
 
+}
 
-=======
 footer{
 	background-color: #171a1d;
 }
->>>>>>> origin/justin
+
