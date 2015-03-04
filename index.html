@@ -165,8 +165,12 @@
 <!-- Form -->
      <div id="form" class="container">
       <!-- Example row of columns -->
+
       <div class="row">
            <div class="col-md-8">
+           <div class="col-md-8-interest">
+           <p>If you are interested in the excellent opportunites that Cardinal, fill out the quick form below. Once we receive your submission, a specialist will be in contact with you shortly.</p>
+           </div>
             <form class="visible-md-block visible-lg-block" action="engine/clientProcessor.php?zal=&amp;utm_campaign=" method="post" name="referralForm" onsubmit="MM_validateForm('First name','','R','Last name','','R','Email address','','RisEmail','Primary phone','','RisNum');return document.MM_returnValue">
                     <br>
                   <input type="hidden" name="utm_source" value="">  
@@ -198,7 +202,7 @@
                         <div class="col-md-3">
 
                              <fieldset>
-                                <select name="Home state" class="form-control" id="Home state" title="Home state" style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;">
+                                <select name="Home state" class="visible-md-block visible-lg-block" id="Home state" title="Home state" style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;">
                                     <option value="">State</option>
                                     <option value="Alabama">Alabama</option>
                                     <option value="Alaska">Alaska</option>
@@ -278,7 +282,7 @@
                     <div class="row">
                         <div class="col-md-6">         
                             <fieldset>  
-                                <select style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;" name="age" class="form-control" placeholder="Are you over 23 years of age?" required="">
+                                <select style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;" name="age" class="" placeholder="Are you over 23 years of age?" required="">
                                 <option value="age">Are you currently over 23 years of age?</option>         
                                 <option value="yes">Yes</option>
                                 <option value="no">No</option>
@@ -287,7 +291,7 @@
                         </div>     
                         <div class="col-md-6">         
                             <fieldset>  
-                                <select name="owner" class="form-control" style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;">
+                                <select name="owner" class="visible-md-block visible-lg-block" style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;">
                                 <option value="owner" name="violation" class="form-control" placeholder="Company Driver or Owner Operator?">Company Driver or Owner Operator?</option>     
                                 <option value="Company Driver">Company Driver</option>
                                 <option value="Owner Operator">Owner Operator</option>
@@ -298,7 +302,7 @@
                     <div class="row">
                         <div class="col-md-6"> 
                             <fieldset>  
-                                <select name="violation" class="form-control" style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;">
+                                <select name="violation" class="visible-md-block visible-lg-block" style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;">
                                 <option value="violation" name="violation" class="form-control" placeholder="Moving violation in the last 12 months?">Moving violation in the last 12 months?</option>     
                                 <option value="yes">Yes</option>
                                 <option value="no">No</option>
@@ -307,7 +311,7 @@
                         </div>     
                         <div class="col-md-6"> 
                             <fieldset>  
-                                <select name="interest" class="form-control" style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;">
+                                <select name="interest" class="visible-md-block visible-lg-block" style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;">
                                 <option value="interest" placeholder="Job are you interested in?">Job are you interested in?</option>     
                                 <option value="">Intermodal</option>
                                 <option value="">Expedited</option>
@@ -316,13 +320,19 @@
                             </fieldset>
                         </div>
                     </div>
+                    <div class="col-md-8-button">
+                    <p>
+                     <span class="visible-md-block visible-lg-block">
+                     <button class="btn btn-danger" input="" name="Submit" type="submit" value="Submit" onclick="_gaq.push(['_trackPageview', '/jobs/activity/shortform_dsk']);MM_validateForm('First name','','R','Last name','','R','Email address','','RisEmail','Primary phone','','R','Birthday year','','R');return document.MM_returnValue">SUBMIT</button>
+                     </span>
+                     </p>
+                     </div>
+              </form>
 
            </div>
         </div>
       </div>
-      <span class="visible-md-block visible-lg-block">
-                    <button class="btn btn-danger" input="" name="Submit" type="submit" value="Submit" onclick="_gaq.push(['_trackPageview', '/jobs/activity/shortform_dsk']);MM_validateForm('First name','','R','Last name','','R','Email address','','RisEmail','Primary phone','','R','Birthday year','','R');return document.MM_returnValue">Submit</button>
-        </span>
+      
       <!-- end form-->
       <!-- Video -->
      <div id="video" class="container">

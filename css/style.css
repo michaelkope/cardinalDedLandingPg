@@ -169,6 +169,7 @@ footer{
 display: block;
 }
 
+	
 .visible-md-block input, button, select, textarea {
 position: relative;
 height: auto;
@@ -178,9 +179,29 @@ margin-top: 20px;
 /* border: 5px solid #d9d9d9; */
 background-color: #ebebeb;
 width: 100%;
+border: 1px solid #ccc;;
 border-radius: 0;
+color: #999999;
 -webkit-appearance: none;
 
+}
+
+.col-md-8-interest{
+text-align: center;
+padding-top: 50px;
+
+}
+.col-md-8-button{
+text-align: center;
+padding-top: 25px;
+	
+}
+
+.btn-danger {
+color: #fff;
+background-color: #d43f3a;
+width: 200px;
+height:50px;
 }
 
 footer{
