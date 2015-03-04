@@ -6,12 +6,6 @@ body {
 }
 
 
-
-#form .col-md-8, #videoContainer{
-	float: none;
-	margin: 0 auto;
-}
-
 .jumbotron {
 background: url(../img/herobg.png) no-repeat top fixed;
 -webkit-background-size: cover;
@@ -122,9 +116,18 @@ background-color: #ffffff;
 	background-color: #696969;
 }
 
-#form .col-md-8, #videoContainer{
-	float: none;
+#video{
+		padding: 20px 0px;
+
+}
+
+#videoBG{
+	float:none;
 	margin: 0 auto;
+}
+
+#videoContainer iframe{
+	height: 400px;
 }
 
 
