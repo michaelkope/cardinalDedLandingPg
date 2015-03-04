@@ -2,18 +2,18 @@
 body {
   padding-top: 0px;
   padding-bottom: 20px;
+  background-color: #f2f2f2;
 }
 
-#mainContentBG{
-	background-color: #e1e1e1;
-}
+
 
 #form .col-md-8, #videoContainer{
 	float: none;
 	margin: 0 auto;
 }
+
 .jumbotron {
-background: url(../images/herobg.png) no-repeat top fixed;
+background: url(../img/herobg.png) no-repeat top fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -26,6 +26,111 @@ margin-bottom: 0px;
 .jumbotron p {
 padding-top: 40%;
 padding-bottom: 17%;
+}
+
+#mainContentBG .container{
+	background-color: #f5f5f5;
+}
+
+#mainContentBG .col-md-4 h2{
+color: #c32030;
+text-align: center;
+text-transform: uppercase;
+line-height: 125%;
+font-weight: bold;
+}
+
+
+#mainContentBG .col-md-4 ul{
+	padding-bottom: 10%;
+	width: 90%;
+	margin: 20px auto;
+}
+
+
+#mainContentBG ul li{
+margin-top:5px; 
+padding-left: 0px;
+font-size: 26px;
+color: #a4202d;
+}
+
+
+#mainContentBG ul li span{
+font-size: 16px;
+color: #696969;
+}
+
+#mainContentBG a.btn{
+background-color: #000000;
+color: #f7fbfa;
+text-transform: uppercase;
+width: 50%;
+padding: 10px;
+text-align: center;
+font-weight: 200;
+}
+
+#mainContentBG a .fa{
+color: #808080;
+padding-right: 10px;
+}
+
+
+#mainContentBG .row .grid_text, #mainContentBG .row .grid_img{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+
+#grid{
+background-color: #ffffff;
+}
+
+
+#grid .row div{
+	min-height: 256px;
+}
+
+#grid ul{
+	padding-top: 10%;
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+
+
+
+
+#grid ul li{
+	padding-left: 0px;
+}
+
+#mainContentBG .row .grid_footer{
+	color:#ffffff;
+	font-weight: 200;
+	padding: 25px;
+	text-align: center;
+
+}
+#mainContentBG .col-md-12{
+	background-color: #696969;
+}
+
+#mainContentBG .col-md-12{
+	background-color: #696969;
+}
+
+#form .col-md-8, #videoContainer{
+	float: none;
+	margin: 0 auto;
+}
+
+
+
+footer{
+	background-color: #171a1d;
 }
 
 
@@ -76,4 +181,9 @@ width: 100%;
 border-radius: 0;
 -webkit-appearance: none;
 
+}
+
+footer{
+	background-color: #171a1d;
+}
 
