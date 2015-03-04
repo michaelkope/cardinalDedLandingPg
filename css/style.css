@@ -1,0 +1,14 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+#mainContentBG{
+	background-color: #e1e1e1;
+}
+
+#form .col-md-8, #videoContainer{
+	float: none;
+	margin: 0 auto;
+}
