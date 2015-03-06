@@ -165,9 +165,13 @@
 <!-- Form -->
      <div id="form" class="container">
       <!-- Example row of columns -->
+
       <div class="row">
            <div class="col-md-8">
-            <form class="visible-md-block visible-lg-block" action="engine/clientProcessor.php?zal=&amp;utm_campaign=" method="post" name="referralForm" onsubmit="MM_validateForm('First name','','R','Last name','','R','Email address','','RisEmail','Primary phone','','RisNum');return document.MM_returnValue">
+           <div class="col-md-8-interest">
+           <p>If you are interested in the excellent opportunites that Cardinal, fill out the quick form below. Once we receive your submission, a specialist will be in contact with you shortly.</p>
+           </div>
+            <form class="form-style" action="engine/clientProcessor.php?zal=&amp;utm_campaign=" method="post" name="referralForm" onsubmit="MM_validateForm('First name','','R','Last name','','R','Email address','','RisEmail','Primary phone','','RisNum');return document.MM_returnValue">
                     <br>
                   <input type="hidden" name="utm_source" value="">  
           <input type="hidden" name="utm_medium" value="">  
@@ -178,12 +182,12 @@
                     <div class="row">
                         <div class="col-md-6">
                             <fieldset>
-                              <input name="firstname" class="form-control" placeholder="First Name" required="" type="text" value="" id="firstname" size="25" maxlength="50">
+                              <input name="firstname" class="form-style" placeholder="First Name" required="" type="text" value="" id="firstname" size="25" maxlength="50">
                             </fieldset>
                         </div>
                         <div class="col-md-6">
                             <fieldset>
-                                <input name="lastname" class="form-control" placeholder="Last Name" required="" type="text" value="" id="lastname" size="25" maxlength="50">
+                                <input name="lastname" class="form-style" placeholder="Last Name" required="" type="text" value="" id="lastname" size="25" maxlength="50">
                             </fieldset>
                         </div>
                     </div>
@@ -191,14 +195,14 @@
                     <div class="row">
                         <div class="col-md-6">
                             <fieldset>
-                                <input name="email" type="text" class="form-control" placeholder="Email" required="" value="" id="email" size="25" maxlength="50">
+                                <input name="email" type="text" class="form-style" placeholder="Email" required="" value="" id="email" size="25" maxlength="50">
                             </fieldset>
                         </div>
 
                         <div class="col-md-3">
 
                              <fieldset>
-                                <select name="Home state" class="form-control" id="Home state" title="Home state" style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;">
+                                <select name="Home state" class="form-style" id="Home state" title="Home state" style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;">
                                     <option value="">State</option>
                                     <option value="Alabama">Alabama</option>
                                     <option value="Alaska">Alaska</option>
@@ -255,7 +259,7 @@
                         </div>
                         <div class="col-md-3">
                              <fieldset>   
-                                <input type="zip" class="form-control" name="zip" placeholder="Zip">
+                                <input type="zip" class="form-style" name="zip" placeholder="Zip">
                             </fieldset>
                         </div>
                     </div> 
@@ -264,13 +268,13 @@
                     <div class="row">
                         <div class="col-md-6">        
                             <fieldset>
-                              <input name="phone" type="text" value="" id="phone" size="25" maxlength="50" class="form-control" placeholder="Phone" required="">
+                              <input name="phone" type="text" value="" id="phone" size="25" maxlength="50" class="form-style" placeholder="Phone" required="">
                   </fieldset>
                         </div>    
                    
                         <div class="col-md-6">  
                             <fieldset>  
-                                <input type="employer" name="employer" class="form-control" placeholder="Who are you currently driving for?">
+                                <input type="employer" name="employer" class="form-style" placeholder="Who are you currently driving for?">
                             </fieldset> 
                         </div>
                     </div>        
@@ -278,7 +282,7 @@
                     <div class="row">
                         <div class="col-md-6">         
                             <fieldset>  
-                                <select style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;" name="age" class="form-control" placeholder="Are you over 23 years of age?" required="">
+                                <select style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;" name="age" class="form-style" placeholder="Are you over 23 years of age?" required="">
                                 <option value="age">Are you currently over 23 years of age?</option>         
                                 <option value="yes">Yes</option>
                                 <option value="no">No</option>
@@ -287,7 +291,7 @@
                         </div>     
                         <div class="col-md-6">         
                             <fieldset>  
-                                <select name="owner" class="form-control" style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;">
+                                <select name="owner" class="form-style" style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;">
                                 <option value="owner" name="violation" class="form-control" placeholder="Company Driver or Owner Operator?">Company Driver or Owner Operator?</option>     
                                 <option value="Company Driver">Company Driver</option>
                                 <option value="Owner Operator">Owner Operator</option>
@@ -298,7 +302,7 @@
                     <div class="row">
                         <div class="col-md-6"> 
                             <fieldset>  
-                                <select name="violation" class="form-control" style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;">
+                                <select name="violation" class="form-style" style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;">
                                 <option value="violation" name="violation" class="form-control" placeholder="Moving violation in the last 12 months?">Moving violation in the last 12 months?</option>     
                                 <option value="yes">Yes</option>
                                 <option value="no">No</option>
@@ -307,7 +311,7 @@
                         </div>     
                         <div class="col-md-6"> 
                             <fieldset>  
-                                <select name="interest" class="form-control" style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;">
+                                <select name="interest" class="form-style" style="background-image: url(img/arrow.png); background-repeat: no-repeat; background-position: right;">
                                 <option value="interest" placeholder="Job are you interested in?">Job are you interested in?</option>     
                                 <option value="">Intermodal</option>
                                 <option value="">Expedited</option>
@@ -316,13 +320,19 @@
                             </fieldset>
                         </div>
                     </div>
+                    <div class="col-md-8-button">
+                    <p style="text-align: center;">
+                     <span class="">
+                     <button class="btn btn-danger" input="" name="Submit" type="submit" value="Submit" onclick="_gaq.push(['_trackPageview', '/jobs/activity/shortform_dsk']);MM_validateForm('First name','','R','Last name','','R','Email address','','RisEmail','Primary phone','','R','Birthday year','','R');return document.MM_returnValue">SUBMIT</button>
+                     </span>
+                     </p>
+                     </div>
+              </form>
 
            </div>
         </div>
       </div>
-      <span class="visible-md-block visible-lg-block">
-                    <button class="btn btn-danger" input="" name="Submit" type="submit" value="Submit" onclick="_gaq.push(['_trackPageview', '/jobs/activity/shortform_dsk']);MM_validateForm('First name','','R','Last name','','R','Email address','','RisEmail','Primary phone','','R','Birthday year','','R');return document.MM_returnValue">Submit</button>
-        </span>
+      
       <!-- end form-->
       <!-- Video -->
      <div id="video" class="container">
