@@ -6,12 +6,6 @@ body {
 }
 
 
-
-#form .col-md-8, #videoContainer{
-	float: none;
-	margin: 0 auto;
-}
-
 .jumbotron {
 background: url(../img/herobg.png) no-repeat top fixed;
 -webkit-background-size: cover;
@@ -122,8 +116,13 @@ background-color: #ffffff;
 	background-color: #696969;
 }
 
-#form .col-md-8, #videoContainer{
-	float: none;
+#video{
+		padding: 20px 0px;
+
+}
+
+#videoBG{
+	float:none;
 	margin: 0 auto;
 }
 
@@ -147,6 +146,10 @@ color: #fff;
 background-color: #c52132;
 width: 200px;
 height:50px;
+}
+
+#videoContainer iframe{
+	height: 400px;
 }
 
 
@@ -177,6 +180,7 @@ footer{
 
 .jumbotron {
 	min-height: 690px;
+}
 }
 
 @media (min-width: 1200px){
