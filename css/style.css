@@ -1,26 +1,63 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 0px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   background-color: #f2f2f2;
+/*background-color: black;
+*/}
+
+.container{
+/*  -moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888;*/
 }
 
+.navbar-inverse{
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-brand{
+	float: none;
+}
+
+.jumbotron p{
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.jumbotron a.btn{
+background-color: #000000;
+color: #f7fbfa;
+text-transform: uppercase;
+width: 50%;
+padding: 10px;
+text-align: center;
+font-weight: 200;
+border-color: transparent;
+}
+
+.jumbotron a .fa{
+color: #808080;
+padding-right: 10px;
+}
 
 .jumbotron {
-background: url(../img/herobg.png) no-repeat top fixed;
+background: url(../img/herobg.png) no-repeat top;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
 background-size: 100%;
 margin-bottom: 0px;
-/* padding: 500px; */
+/*height: 500px;
+*//* padding: 500px; */
+padding-top: 32%;
+padding-bottom: 34%;
 }
 
-.jumbotron p {
-padding-top: 40%;
-padding-bottom: 17%;
-}
+
+/* MAIN CONTENT - GRID */
 
 #mainContentBG .container{
 	background-color: #f5f5f5;
@@ -55,6 +92,10 @@ font-size: 16px;
 color: #696969;
 }
 
+#mainContentBG p{
+text-align: center;
+}
+
 #mainContentBG a.btn{
 background-color: #000000;
 color: #f7fbfa;
@@ -71,20 +112,26 @@ padding-right: 10px;
 }
 
 
-#mainContentBG .row .grid_text, #mainContentBG .row .grid_img{
+#mainContentBG .row .grid_text{
+padding-right: 0px;
+	padding-left: 0px;
+}
+
+#mainContentBG .row .grid_img{
 	padding-right: 0px;
 	padding-left: 0px;
 }
+
+/*#mainContentBG .row .grid_img:first-child{
+	padding-right: 0px;
+	padding-left: 0px;
+}*/
 
 
 #grid{
 background-color: #ffffff;
 }
 
-
-#grid .row div{
-	min-height: 256px;
-}
 
 #grid ul{
 	padding-top: 10%;
@@ -94,37 +141,45 @@ background-color: #ffffff;
 }
 
 
-
-
-
 #grid ul li{
 	padding-left: 0px;
 }
 
-#mainContentBG .row .grid_footer{
+#mainContentBG #grid_footer{
 	color:#ffffff;
 	font-weight: 200;
-	padding: 25px;
 	text-align: center;
+	min-height: 300px;
+		background-color: #696969;
 
-}
-#mainContentBG .col-md-12{
-	background-color: #696969;
-}
-
-#mainContentBG .col-md-12{
-	background-color: #696969;
-}
-
-#video{
-		padding: 20px 0px;
 
 }
 
-#videoBG{
-	float:none;
+#mainContentBG #grid_footer .col-md-12{
+font-size: 16px;
+	padding: 50px 25px 0px 25px;
+	line-height: 175%;
+}
+
+
+/* FORM */
+
+#form{
+	padding-top: 75px;
+	background-color: #ffffff;
+
+}
+
+#form #formWrapper{
+	float: none;
 	margin: 0 auto;
 }
+
+#form p{
+	text-align: center;
+	color: #8e8e8e;
+}
+
 
 .form-style input, button, select, textarea {
 position: relative;
@@ -143,26 +198,56 @@ color: #999999;
 }
 .btn-danger {
 color: #fff;
-background-color: #c52132;
+background-color: #c52032;
 width: 200px;
 height:50px;
 }
+
+.btn-danger .fa{
+color: #e29099;
+padding-right: 10px;
+}
+
+/* VIDEO */
+
+#video{
+padding: 20px 0px;
+}
+
+#video #videoBG h2{
+color:#000000;
+text-align: center;
+}
+
+#videoBG{
+	float:none;
+	margin: 0 auto;
+}
+
+
 
 #videoContainer iframe{
 	height: 400px;
 }
 
+/* FOOTER */
+footer .col-md-12{
+	background-color: #181a1e;
+}
 
-footer{
-	background-color: #171a1d;
+footer p{
+	padding: 20px 0px 20px 0px;
+	line-height: 150%;
+	text-align: center;
+	color:#ffffff;
+	margin-bottom: 0px;
 }
 
 
 @media (min-width: 320px){
 
-.jumbotron {
-	height: auto;
-	max-width: 100%
+#grid img{
+	width: 100%;
 }
 
 
@@ -170,23 +255,32 @@ footer{
 
 @media (min-width: 768px){
 
-.jumbotron {
-	min-height: 600px;
-}
+
 }
 
 
 @media (min-width: 992px){
-
-.jumbotron {
-	min-height: 690px;
+footer{
+	background-color: #181a1e;
 }
+
+
+
 }
 
 @media (min-width: 1200px){
-.jumbotron {
-	min-height: 850px;
-
+footer{
+	background-color: #181a1e;
+}
+/*.jumbotron {
+background: url(../img/herobg.png) no-repeat top;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-size: contain;
+/* padding: 500px; 
+height: 818px;
 }
 
 .form-control {
@@ -196,28 +290,19 @@ margin-top: 10px;
 
 .form-style {
 display: block;
+}*/
+
 }
 
 	
 
 
-
-
-
-.col-md-8-interest{
-text-align: center;
-padding-top: 50px;
-
-}
-.col-md-8-button{
+/*.col-md-8-button{
 text-align: center;
 padding-top: 25px;
 	
-}
+}*/
 
 
 
-footer{
-	background-color: #171a1d;
-}
 
